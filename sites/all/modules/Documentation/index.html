@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ipress Documentation</title>
+<!-- Mobile viewport optimized -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!-- Mobile Internet Explorer allows us to activate ClearType technology for smoothing fonts for easy reading -->
+<meta http-equiv="cleartype" content="on">
+<!-- Le styles -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/themes/black-tie/jquery-ui.css" rel="stylesheet">
+<link href="css/jquery.tocify.css" rel="stylesheet">
+<link href="css/prettify.css" type="text/css" rel="stylesheet" />
+<link href="css/styles.css" type="text/css" rel="stylesheet" />
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="../assets/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+<style>
+@media (max-width: 767px) {
+ #toc {
+ position: relative;
+ width: 100%;
+ margin: 0px 0px 20px 0px;
+}
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container-fluid"><a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="#">Home
+Custom Build</a>
+			<div class="nav-collapse">
+				<ul class="nav">
+					<li class="active"><a href="index.html">Home</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+<div class="row-fluid">
+	<div class="span3 tocify">
+		<div id="toc"></div>
+		<!--/.well -->
+	</div>
+	<!--/span-->
+	<div class="span9">
+		<div class="hero-unit">
+			<h1>Ipress Documentation</h1>
+			<br />
+			<br />
+			<h2>Description</h2>
+			<p>Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/drupalet" target="_blank">here</a>. Thanks so much!</p>
+			
+			
+		</div>
+		<hr/>
+		<h2><a>Installing The Theme</a></h2>
+		<br />
+		<p class="well"> 
+		There are 2 ways to install :</p>
+			<ul>
+				<li>Fresh installation.</li>
+				<li>Install on Existing Drupal core</li>
+			</ul>
+
+		<p>Log into your site via FTP . (if you don't have any FTP program you can use <a href="http://filezilla-project.org/">FileZilla</a> , it's free).</p>
+		<p>&nbsp;</p>
+		
+		<h3><p><strong>1. Fresh installation.</strong></p></h3>
+		<ul>
+			<li>Upload <strong>Fresh_installation.zip</strong> to your domain directory and unzip it.</li>
+			<li>Now go to <strong>yoursite.com</strong> to start installing.</li>
+</ul>
+		<p><img src="demo-image/1.PNG"></p>
+		<p>Click <strong>Save and Continue </strong>to the next step<strong>,</strong></p>
+		<ul>
+			<li>Config your language.</li>
+			<li>Config database credentials</li>
+			<li>Config site information</li>
+			<li>And you are done!</li>
+		</ul>
+		<p>&nbsp;</p>
+		<h3><p><strong>2. Install on Existing Drupal core</strong></p></h3>
+		<ul>
+			<li>Login to your Drupal site</li>
+			<li>Upload<strong> theme/Ipress</strong> to <strong>themes</strong> directory in /sites/all/themes/</li>
+			<li>Upload <strong>modules/</strong> to <strong>modules</strong> directory in /sites/all/modules/</li>
+			
+			<li>In Drupal admin , Appearance and set <strong>Ipress</strong> as a default theme, and active all uploaded modules.</li>
+		</ul><br>
+
+		<hr/><br>
+
+		<h2><a href="#UsingBasicHtmlShortcodes">Using HTML Shortcodes</a></h2>
+		<h3>1. Columns</h3>
+		<br />
+		<p class="well">To create column, you can use the following html shortcodes, you just need to put your content inside them.</p>
+
+		<pre class="prettyprint">
+	&lt;div class=&quot;<strong>column-class</strong>&quot;&gt; your content &lt;/div&gt;
+		</pre>
+		<p>Replace <strong>column-class</strong> with the following class:</p>
+		<ul>
+			<li><strong>grid_12</strong> (full)</li>
+			<li><strong>grid_6</strong> (1/2)</li>
+			<li><strong>grid_4</strong> (1/3)</li>
+			<li><strong>grid_3</strong> (1/4)</li>
+			<li><strong>grid_5</strong> (5/12)</li>
+			<li><strong>grid_7</strong> (7/12)</li>
+			
+			<li><strong>grid_8</strong> (2/3)</li>
+			<li><strong>grid_9</strong> (3/4)</li>
+			<li><strong>grid_2</strong> (2/12)</li>
+			<li><strong>grid_10</strong> (10/12)</li>
+			<li><strong>grid_1</strong> (1/12)</li>
+			<li><strong>grid_11</strong> (11/12)</li>
+			
+		</ul>
+		<p>&nbsp;</p>
+		
+		<p><strong>Examle:</strong> to create three columns, the syntax will be:</p>
+
+		<pre class="prettyprint">&lt;div class=&quot;<strong>grid_4</strong>&quot;&gt; Column 1 &lt;/div&gt;<br>&lt;div class=&quot;<strong>grid_4</strong>&quot;&gt; Column 2 &lt;/div&gt;<br>&lt;div class=&quot;<strong>grid_4</strong>&quot;&gt; Column 3 &lt;/div&gt;</pre>
+		<h3><strong>2. Buttons</strong></h3>
+		
+		<p><img src="demo-image/2.PNG" ></p>
+		
+		<p>&nbsp;</p>
+		<pre class="prettyprint">
+&lt;a href=&quot;&quot; class=&quot;tbutton large&quot;&gt;&lt;span&gt;Large Button&lt;/span&gt;&lt;/a&gt;<br>&lt;a href=&quot;&quot; class=&quot;tbutton medium&quot;&gt;&lt;span&gt;Medium Button&lt;/span&gt;&lt;/a&gt;<br>&lt;a href=&quot;&quot; class=&quot;tbutton small&quot;&gt;&lt;span&gt;Smal Button&lt;/span&gt;&lt;/a&gt;</pre>
+		<p>&nbsp;</p>
+		
+		
+		
+		
+<p>&nbsp;</p>
+<h3>3. Alert Messages</h3>
+<img src="demo-image/3.PNG"><br/><br/>
+<pre class="prettyprint">&lt;div class=&quot;notification-box notification-box-success&quot;&gt;<br>	&lt;p&gt;&lt;i class=&quot;fa-check&quot;&gt;&lt;/i&gt;Your Account Activated Successfully.&lt;/p&gt;<br>	&lt;a href=&quot;#&quot; class=&quot;notification-close notification-close-success&quot;&gt;&lt;i class=&quot;fa-times&quot;&gt;&lt;/i&gt;&lt;/a&gt;<br>&lt;/div&gt;<br>&lt;div class=&quot;notification-box notification-box-info&quot;&gt;<br>	&lt;p&gt;&lt;i class=&quot;fa-flag&quot;&gt;&lt;/i&gt;Insert your information text here for box info.&lt;/p&gt;<br>	&lt;a href=&quot;#&quot; class=&quot;notification-close notification-close-info&quot;&gt;&lt;i class=&quot;fa-times&quot;&gt;&lt;/i&gt;&lt;/a&gt;<br>&lt;/div&gt;<br>&lt;div class=&quot;notification-box notification-box-error&quot;&gt;<br>	&lt;p&gt;&lt;i class=&quot;fa-power-off&quot;&gt;&lt;/i&gt;Error: This Input Required.&lt;/p&gt;<br>	&lt;a href=&quot;#&quot; class=&quot;notification-close notification-close-error&quot;&gt;&lt;i class=&quot;fa-times&quot;&gt;&lt;/i&gt;&lt;/a&gt;<br>&lt;/div&gt;<br>&lt;div class=&quot;notification-box notification-box-warning&quot;&gt;<br>	&lt;p&gt;&lt;i class=&quot;fa-exclamation-triangle&quot;&gt;&lt;/i&gt;Warning: Please Read All Terms.&lt;/p&gt;<br>	&lt;a href=&quot;#&quot; class=&quot;notification-close notification-close-warning&quot;&gt;&lt;i class=&quot;fa-times&quot;&gt;&lt;/i&gt;&lt;/a&gt;<br>&lt;/div&gt;</pre>
+<p>&nbsp;</p>
+<h3>4. Tables</h3>
+<img src="demo-image/4.PNG"><br/><br/>
+<pre class="prettyprint">&lt;table class=&quot;table&quot;&gt;<br>	&lt;thead&gt;<br>		&lt;tr&gt;<br>			&lt;th scope=&quot;col&quot;&gt;/&lt;/th&gt;<br>			&lt;th scope=&quot;col&quot;&gt;HTML Files&lt;/th&gt;<br>			&lt;th scope=&quot;col&quot;&gt;PHP Files&lt;/th&gt;<br>			&lt;th scope=&quot;col&quot;&gt;PSD Files&lt;/th&gt;<br>			&lt;th scope=&quot;col&quot;&gt;Animation Version&lt;/th&gt;<br>			&lt;th scope=&quot;col&quot;&gt;More Colors&lt;/th&gt;<br>		&lt;/tr&gt;<br>	&lt;/thead&gt;<br>	&lt;tbody&gt;<br>		&lt;tr&gt;<br>			&lt;td&gt;Basic Package&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-check&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-check&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-times&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-times&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-times&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>		&lt;/tr&gt;<br>		&lt;tr&gt;<br>			&lt;td&gt;Developer Package&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-check&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-check&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-check&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-times&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-times&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>		&lt;/tr&gt;<br>		&lt;tr&gt;<br>			&lt;td&gt;Pro Package&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-check&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-check&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-check&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-check&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-times&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>		&lt;/tr&gt;<br>		&lt;tr&gt;<br>			&lt;td&gt;Premium Package&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-check&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-check&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-check&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-check&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>			&lt;td&gt;&lt;i class=&quot;fa-check&quot;&gt;&lt;/i&gt;&lt;/td&gt;<br>		&lt;/tr&gt;<br>	&lt;/tbody&gt;<br>	&lt;tfoot&gt;<br>		&lt;tr&gt;<br>			&lt;td colspan=&quot;6&quot;&gt;Footer Note: Lorem ipsum dolor sit amet&lt;/td&gt;<br>		&lt;/tr&gt;<br>	&lt;/tfoot&gt;<br>&lt;/table&gt;</pre>
+
+<p>&nbsp;</p>
+<h3>5. Tabs content</h3>
+<img src="demo-image/5.PNG"><br/><br/>
+<pre class="prettyprint">&lt;ul class=&quot;tabs&quot;&gt;<br>	&lt;li&gt;&lt;a href=&quot;#t-1&quot; class=&quot;active&quot;&gt;Tab 1&lt;/a&gt;&lt;/li&gt;<br>	&lt;li&gt;&lt;a href=&quot;#t-2&quot;&gt;Tab 2&lt;/a&gt;&lt;/li&gt;<br>	&lt;li&gt;&lt;a href=&quot;#t-3&quot;&gt;Tab 3&lt;/a&gt;&lt;/li&gt;<br>&lt;/ul&gt;<br>&lt;!-- tabs --&gt;<br>&lt;ul class=&quot;tabs-content&quot;&gt;<br>	&lt;li id=&quot;t-1&quot; class=&quot;active&quot;&gt; Content&lt;/li&gt;<br>	&lt;!-- tab content --&gt;<br>	&lt;li id=&quot;t-2&quot;&gt;Content&lt;/li&gt;<br>	&lt;!-- tab content --&gt;<br>	&lt;li id=&quot;t-3&quot;&gt;Content&lt;/li&gt;<br>	&lt;!-- tab content --&gt;<br>&lt;/ul&gt;</pre>
+<p>&nbsp;</p>
+<h3>6. Toggle</h3>
+<img src="demo-image/6.PNG"><br/><br/>
+<pre class="prettyprint">&lt;ul class=&quot;tt-toggle&quot;&gt;<br>	&lt;li class=&quot;sub-toggle&quot;&gt;<br>		&lt;div class=&quot;toggle-head&quot;&gt;<br>			&lt;div class=&quot;toggle-head-sign&quot;&gt;&lt;/div&gt;<br>			&lt;p&gt;Simply dummy text of the printing in this&lt;/p&gt;<br>		&lt;/div&gt;<br>		&lt;div class=&quot;toggle-content&quot;&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.&lt;/div&gt;<br>	&lt;/li&gt;<br>	&lt;!-- /toggle item --&gt;<br>	&lt;li class=&quot;sub-toggle&quot;&gt;<br>		&lt;div class=&quot;toggle-head&quot;&gt;<br>			&lt;div class=&quot;toggle-head-sign&quot;&gt;&lt;/div&gt;<br>			&lt;p&gt;Simple blockquote code in toggle content section&lt;/p&gt;<br>		&lt;/div&gt;<br>		&lt;div class=&quot;toggle-content&quot;&gt;<br>			&lt;div class=&quot;blockquote&quot;&gt;<br>				&lt;div&gt;&lt;i class=&quot;icon-quote-left icon-4x pull-left icon-muted&quot;&gt;&lt;/i&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.&lt;/div&gt;<br>			&lt;/div&gt;<br>		&lt;/div&gt;<br>	&lt;/li&gt;<br>	&lt;!-- /toggle item --&gt;<br>	&lt;li class=&quot;sub-toggle&quot;&gt;<br>		&lt;div class=&quot;toggle-head&quot;&gt;<br>			&lt;div class=&quot;toggle-head-sign&quot;&gt;&lt;/div&gt;<br>			&lt;p&gt;External Video in accordion content&lt;/p&gt;<br>		&lt;/div&gt;<br>		&lt;div class=&quot;toggle-content&quot;&gt;<br>			&lt;iframe src=&quot;http://player.vimeo.com/video/4749536?title=1&amp;amp;byline=1&amp;amp;portrait=1&quot; width=&quot;100%&quot; height=&quot;300&quot;&gt;&lt;/iframe&gt;<br>		&lt;/div&gt;<br>	&lt;/li&gt;<br>	&lt;!-- /toggle item --&gt;<br>&lt;/ul&gt;</pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>7. Accordion</h3>
+<img src="demo-image/7.PNG"><br/><br/>
+<pre class="prettyprint">&lt;ul class=&quot;tt-accordion&quot;&gt;<br>	&lt;li class=&quot;sub-accordion&quot;&gt;<br>		&lt;div class=&quot;accordion-head&quot;&gt;<br>			&lt;div class=&quot;accordion-head-sign&quot;&gt;&lt;/div&gt;<br>			&lt;p&gt;Simply dummy text of the printing in this&lt;/p&gt;<br>		&lt;/div&gt;<br>		&lt;div class=&quot;accordion-content&quot;&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.&lt;/div&gt;<br>	&lt;/li&gt;<br>	&lt;!-- /accordion item --&gt;<br>	&lt;li class=&quot;sub-accordion&quot;&gt;<br>		&lt;div class=&quot;accordion-head&quot;&gt;<br>			&lt;div class=&quot;accordion-head-sign&quot;&gt;&lt;/div&gt;<br>			&lt;p&gt;Simple blockquote code in accordion content section&lt;/p&gt;<br>		&lt;/div&gt;<br>		&lt;div class=&quot;accordion-content&quot;&gt;<br>			&lt;div class=&quot;blockquote&quot;&gt;<br>				&lt;div&gt;&lt;i class=&quot;icon-quote-left icon-4x pull-left icon-muted&quot;&gt;&lt;/i&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.&lt;/div&gt;<br>			&lt;/div&gt;<br>		&lt;/div&gt;<br>	&lt;/li&gt;<br>	&lt;!-- /accordion item --&gt;<br>	&lt;li class=&quot;sub-accordion&quot;&gt;<br>		&lt;div class=&quot;accordion-head&quot;&gt;<br>			&lt;div class=&quot;accordion-head-sign&quot;&gt;&lt;/div&gt;<br>			&lt;p&gt;External Video in accordion content&lt;/p&gt;<br>		&lt;/div&gt;<br>		&lt;div class=&quot;accordion-content&quot;&gt;<br>			&lt;iframe src=&quot;http://player.vimeo.com/video/4749536?title=1&amp;amp;byline=1&amp;amp;portrait=1&quot; width=&quot;100%&quot; height=&quot;300&quot;&gt;&lt;/iframe&gt;<br>		&lt;/div&gt;<br>	&lt;/li&gt;<br>&lt;/ul&gt;</pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>8. BlockQuotes</h3>
+<img src="demo-image/8.PNG"><br/><br/>
+<pre class="prettyprint">&lt;div class=&quot;title&quot;&gt;<br>	&lt;h4&gt;BlockQuotes&lt;/h4&gt;<br>&lt;/div&gt;<br>&lt;div class=&quot;blockquote&quot;&gt; Content&lt;/div&gt;</pre>
+<p>&nbsp;</p>
+
+<hr/>
+<h2><a>Setting Media <span style="color:#F00">(IMPORTANT)</span></a></h2><br>
+
+<h3>1. Adding : <span class="red">Blog</span>.</h3>
+<p><strong>Step 1.</strong> In Admin menu, go to: <strong>Configuration</strong> -> <strong>Image styles </strong>-> <strong>Add style</strong></p>
+<img src="demo-image/49.PNG" ><br>
+<br>
+
+<p><strong>Step 2.</strong> In Popup window, enter "<span class="red">blog</span>" to Style name. and click <strong>Create new style</strong></p>
+<p><strong>Step 3.</strong> Look at the following image for the configuration. after done setting, hit <strong>Add</strong></p>
+<img src="demo-image/500.PNG" ><br/><br/>
+
+<p><strong>Step 4.</strong> Enter width & height (570x400) then hit <strong>Add effect</strong> to save the settings:</p>
+
+
+<hr>
+<h2><a>Adding Taxonomy Vocabulary</a></h2><br><br>
+
+<h3>1. Adding <strong>Categories</strong> vocabulary taxonomy.</h3>
+<p>- In Admin menu, click <strong>Structure </strong>-> <strong>Taxonomy </strong>-> <strong>Add vocabulary</strong></p>
+<p><img src="demo-image/51.PNG"></p>
+<p>&nbsp;</p>
+<p>- Enter these fields as a following image. Then hit <strong>Save</strong></p>
+<p><strong><em>Note: Machine name</em></strong><em> must be <strong>"categories</strong>"</em></p>
+<img src="demo-image/52.PNG">
+
+
+
+<br>
+
+<hr><br>
+
+<h2><a>Manage menu</a></h2>
+<p>&nbsp;</p>
+<h3><strong>1. Manage Main menu</strong></h3>
+<p>- In Admin Menu click: <strong>Structure </strong>-&gt; <strong>Blocks</strong>.</p>
+<p>- Re-select <strong>REGION</strong> for <strong>Main menu</strong> block : "<strong>Main menu</strong>" as a following image. and click <strong>Save blocks</strong> .</p>
+<p><strong>Note: </strong>Remove <strong>Main menu block title.</strong></p>
+<img src="demo-image/55.PNG">
+<br>
+
+<br/>
+<hr>
+<h2><a>Setting up Blog Page</a></h2><br>
+
+<h3>1. Enable module blog</h3>
+<p>Activate <strong>blog module </strong>by check to <strong>Blog </strong>from <strong>Modules</strong> as a following image, Hit <strong>Save Configuration</strong> after done setting.<br></p>
+<img src="demo-image/59.PNG">
+
+<br>
+<h3>2. Manage content type</h3>
+<p>Add more fields for <strong>BLOG CONTENT TYPE</strong> that have just been activated for <strong>blog page</strong></p>
+
+<p>- In Admin Menu: cick <strong>Structure</strong> -> <strong>Content types</strong> -> Click <strong>manage fields</strong> của <strong>Blog</strong> as a following image:</p>
+<img src="demo-image/60.PNG">
+<br>
+<br>
+
+<h4>2.1. The following fields can be editted in the Drupal administration interface. Navigate to Structure > Content Types > Blog entry > Manage Fields to modify the basic page field settings.</h4><br>
+<br>
+<img src="demo-image/61.PNG">
+<br><br>
+
+
+
+<br>
+<h2><a>Social</a></h2><br><br/>
+<img src="demo-image/83-3.PNG">
+<br>
+<br>
+<hr><br>
+<br>
+<h2><a>Adding Contact page</a></h2>
+<h3>1. Activate Contact</h3>
+<p>- In Admin Menu: click <strong>Structure </strong>-&gt; <strong>Module</strong> and Save configuration.</p>
+<p>&nbsp;</p>
+<img src="demo-image/86.PNG">
+<br>
+<br>
+<h3>2. Add contact menu item to Main menu</h3>
+<p>Syntax should be: <strong>http://your-domain.com/contact</strong>.</p>
+<img src="demo-image/87.PNG" >
+<br>
+<br>
+
+<h2><a>Contexts</a></h2>
+<p>The Ipress theme utilizes the Context module to control the homepage content, blocks, menus, and global elements such as header or footer regions...</p>
+
+<p>To add a new context or modify an existing context, navigate to Structure > Context and locate the appropriate option.</p>
+<br/>
+<img src="demo-image/88.PNG">
+<br/><br/>
+<p>All block and menu trail configuration settings which came packaged in the Ipress: Features module are contained in the context definitions above. Creating/modifying contexts is simple! Each context arguement is comprised of two parts: conditions and reactions.</p>
+<p>Example: A block titled NEW_BLOCK has been created and needs to be placed in the second sidebar region on blog posts.</p>
+<p>
+<ul>
+	<li>Condition: Node Type = Blog Post</li>
+	<li>Reaction: Blocks > Sidebar Second = NEW_BLOCK</li>
+</ul>
+</p>
+<p>The above arguement will result in NEW_BLOCK appearing in the second sidebar region on all pages of the blog post content type. Context conditions can be based on several options such content types, path, taxonomy terms, and user roles.</p>
+<p>Although a multitude of reaction options also exist, Ipress only uses the block and menu reactions in the preconfigured theme settings. Please modify the appropriate context definition if the need to disable the preconfigured block/menu settings arise.</p>
+
+<br/><br/>
+<h2><a>Blocks</a></h2>
+
+<h3>Creating a Block</h3>
+<p>Blocks can be added/modified by navigating to Structure > Blocks > Add Block in the Drupal administrative interface. Each block can hold plain text or full HTML markup and be used on multiple pages of your website. Using a block is highly recommended when an element needs to be used on multiple pages. Make sure you check the filter settings if HTML is needed.</p>
+<h3>Editing a Block</h3>
+<p>Blocks can be edited by navigating to Structure > Blocks in the Drupal administration interface, or by hovering over a block on the page and clicking the Edit block link. CSS classes can also be added to each block on the edit block page.</p>
+
+<h3>Placing Blocks in a Region</h3>
+<p>Blocks can be placed in regions by utilizing the "drag and drop" interface found at Structure > Blocks or on the block edit page:</p>
+<img src="demo-image/88-11.PNG">
+<h3>Limiting Blocks to Specific Pages</h3>
+<p>To place a block on a specific page, or multiple pages, navigate to Structure > Blocks in the Drupal administration interface and click the configure link next to the block you are editing. </p>
+
+<p>Locate the Pages tab at the bottom of the page. Here you can specify the address to each page you wish to include or disclude each respective block on.</p>
+
+<p>Example: the block will only be listed if the path is /contact or /node/17.</p>
+
+<img src="demo-image/88-2.PNG">
+<br/><br/>
+<h2><a>Views</a></h2>
+<br/><br/>
+<img src="demo-image/88-5.png">
+
+<br/><br/>
+<h2>Theme Settings</h2><br/>
+<p>The theme settings form an integral part of the Ipress framework. To access the theme settings, navigate to Appearence > Settings -> Ipress.</p>
+<br/><br/>
+<h2><a>Customer Support</a></h2><br/>
+<h3>Support Policy</h3>
+<p>Having troubles? We're here to help! Theme support is handled through our <a href="http://support.drupalet.com/questions/" title="Support forum" target="_blank">dedicated support forum</a>. If you are having an issue with a theme, please create an account on our support forums.</p>
+
+<h3>Customization Requests</h3>
+<p>All theme modifications which alter or built upon the original theme functionality are considered extra customizations and are not covered by Theme Boutique's support policy. If you would like to request a quote for paid customizations, please contact us through our author profile page and we will respond to your query within 48 hours.</p>
+<br/><br/>
+<h2><a>Thanks!!!!</a></h2>
+<p>Thank you very much for using our products.</p>
+<p>If you are satisfied with this product, please don’t forget to rate it <img src="http://freedesigns.me/wp/banner/newhost/star.png" style="border:none"><img src="http://freedesigns.me/wp/banner/newhost/star.png" style="border:none"><img src="http://freedesigns.me/wp/banner/newhost/star.png" style="border:none"><img src="http://freedesigns.me/wp/banner/newhost/star.png" style="border:none"><img src="http://freedesigns.me/wp/banner/newhost/star.png" style="border:none">.</p>
+
+<p>Your rating is inspires us for future update and better support.</p>
+<p>Have a good day!</p>
+	</div>
+	<!--/row-->
+	<hr>
+	
+</div>
+</div>
+<!--/.fluid-container-->
+<!-- Le javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.tocify.min.js"></script>
+<script src="js/prettify.js"></script>
+<script src="js/githubrepo.js"></script>
+<script>
+        $(function() {
+
+            $("#toc").tocify({ selectors: "h2, h3, h4", scrollTo: 60, highlightOffset: 60, extendPage: true });
+
+            prettyPrint();
+
+            $(".optionName").popover({ trigger: "hover" });
+
+            $("a[href='#']").click(function(event) {
+ 
+                event.preventDefault();
+
+            });
+
+        });
+    </script>
+</body>
+</html>

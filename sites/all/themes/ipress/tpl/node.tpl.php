@@ -18,18 +18,7 @@
 
   <?php print render($title_prefix); 
   $content['field_image']['#label_display']='hidden';?>
-  <?php if ( ($teaser) ): ?>
-     <h2 class="nodeTitle">
-        <a href="<?php print $node_url; ?>">
-              <?php $s=strlen($title);
-                        if($s>55): ?>
-                 <?php print substr($title,0,55)."...";?>
-                 <?php else:?>
-                 <?php print $title; ?>
-               <?php endif?>
-        </a>
-     </h2>
-<?php endif;?>
+
   <?php print render($title_suffix); ?>
 
   <?php if ($display_submitted): ?>

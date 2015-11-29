@@ -1379,7 +1379,7 @@ li li a .sf-sub-indicator {
 .posts .title {
 	position: relative;
 	color: #fff;
-	background: #1d1e20;
+	background: #fff;
 	padding: 6px 16px;
 	margin: 0 0 20px 0
 }
@@ -2580,33 +2580,9 @@ li li .subarrow {
  	font-size: 50px;
 }
 
-.node-teaser {
-	position: relative; 
-    width: 100%; /* for IE 6 */
-}
 
-.node-teaser img {
-	display: block;
-	box-shadow: 5px 5px 10px #FF8000 inset;
-	z-index: 999;
-}
 
-h2 { 
-   position: absolute; 
-   top: 120px; 
-   left: 0; 
-   width: 100%; 
-}
 
-h2 a { 
-   color: white; 
-   font: 24px/45px "Roboto", Helvetica, Sans-Serif; 
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-   padding: 8px 3px;
-   -webkit-box-decoration-break: clone;
-   box-decoration-break: clone;
-}
 
 .field-label {
 	opacity: :0;
@@ -2622,17 +2598,64 @@ h2 a {
     background-color: #FF8000;
 }
 
-/*.username a {
-	position: relative;
- 	top: 200px;
- 	z-index: 2;
-    color: white; 
-    font: 10px/45px "Roboto", Helvetica, Sans-Serif; 
-    letter-spacing: -1px;  
-    background: rgb(0, 0, 0); /* fallback color */
-    background: rgba(0, 0, 0, 0.7);
-    padding: 8px 5px;
-    -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
+.field-name-field-image {
+    width: 300px;
+    float: left;
 }
-*/
+
+.nodeTeas {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.field-name-title {
+    position: absolute;
+    left: 320px;
+    top: 4px;
+}
+
+.field-name-title h2 {
+    font-size: 24px;
+    position: relative;
+    float: left;
+}
+
+.field-type-text-with-summary {
+    position: absolute;
+    top: 65px;
+    left: 320px;
+}
+
+.field-type-text-with-summary p {
+    color: black;
+    font-size: 18px;
+    position: relative;
+    float: left;
+    font-family: garamond;
+}
+
+.NodeTeaserRow {
+    box-shadow: 0px 0px 5px black;
+}
+
+sub,
+sup {
+font-size: 75%;
+line-height: 0;
+position: relative;
+vertical-align: baseline;
+}
+sup {
+top: -0.5em;
+}
+sub {
+bottom: -0.25em;
+}
+
+.webForm {
+	border:2px solid #456879;
+	border-radius:10px;
+	height: 22px;
+	width: 230px;
+}

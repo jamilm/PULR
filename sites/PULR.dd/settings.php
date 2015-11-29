@@ -212,7 +212,13 @@
  *   );
  * @endcode
  */
-$databases = array();
+$databases['default']['default'] = array(
+  'driver' => 'pgsql',
+  'database' => 'd7ja24hpqctejl',
+  'username' => 'jegeiqnwgbwzcc',
+  'password' => 'mru_W6Pj0ZZx3ZM83dzNNr4BQg',
+  'host' => 'ec2-23-23-81-221.compute-1.amazonaws.com',
+);
 
 /**
  * Access control for update.php script.
